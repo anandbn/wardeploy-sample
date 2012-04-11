@@ -39,6 +39,10 @@ In order to deploy your WAR use the following command:
 
     heroku deploy:war --app <app_name> <absolute_path_to_war_file>
 
+If you are in an application directory, use the following command:
+
+    heroku deploy:war <absolute_path_to_war_file>
+
 ### Frequently asked questions
 
 #### What container does my WAR file deploy to?
@@ -59,4 +63,4 @@ To deploy just a WAR file to your application, you do not need to include a <cod
 
 #### Can I deploy a WAR to an existing application ?
 
-<TBD>
+Yes. The WAR deployment will create a new release with the Procfile containing just your web application. The process will not update an existing <code>Procfile</code>. If you need to revert back to an earlier release use <code>heroku rollback</code>.
