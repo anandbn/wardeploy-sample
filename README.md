@@ -7,6 +7,7 @@ You will require the following:
 * [Heroku toolbelt](https://toolbelt.heroku.com/)
 * [Heroku account](http://www.heroku.com/signup)
 
+Additionally your heroku account needs to be enabled for WAR deployments. Email us at anand@heroku.com if you need your account enabled for WAR deployment.
 
 ## Getting started
 
